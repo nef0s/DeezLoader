@@ -1,66 +1,6 @@
-# DeezLoader Reborn V3.1.1 final
-DeezLoader Reborn is here to replace the old DeezLoader V2.3.1.<br/>
-With this software you can download high-qualiy music and enjoy.
-
-**DeezLoader Reborn is no longer maintained due to DMCA**<br/>
-**3.1.1 is the last update, no more updates will be made**
-
-**EDIT: DeezLoader Reborn got updated because of Deezer's patch**
-
-# Features
-- Download FLAC/MP3-320 music content from Deezer(FLAC needs to be turned on in the settings 'turn on HIFI')
-- Search musics
-- Use Deezer links as an alternative for Searching and downloading inside the software
-- Download multiple musics at a time
-- Download Albums and artists
-- Tagging system on MP3-320 and FLAC
-- Simple and user friendly
-
-# Download Links
-- Source code: [DeezLoader-3.1.1-src.zip]()
-- Windows installer: [DeezLoader-3.1.1-win-64&32-installer.exe]()
-- Windows x64 portable: [DeezLoader-3.1.1-win-64-portable.7z]()
-- Windows x86 portable: [DeezLoader-3.1.1-win-32-portable.7z]()
-- Linux x64: [DeezLoader-3.1.1-linux-64.AppImage]()
-- Linux x86: [DeezLoader-3.1.1-linux-32.AppImage]()
-- Mac x64: [DeezLoader-3.1.1-mac-64.dmg]()
-
-# Virus total
-- Windows installer: [DeezLoader-3.1.1-win-64&32-installer.exe]()
-- Linux x64: [DeezLoader-3.1.1-linux-64.AppImage]()
-- Linux x86: [DeezLoader-3.1.1-linux-32.AppImage]()
-- Mac x64: [DeezLoader-3.1.1-mac-64.dmg]()
-
-# Donations
-- **BTC/BCH:** 1A25gu2vMXLfQBYArYLMBcTpnuwPiKW6vL
-- **LTC:** LbrVLYkmJ3k2woXACMKshg8KqbMqt1yhAz
-- **Paypal:** extendlord@gmail.com
-
-# How to run
-- Download the installer and run it.
-- Run DeezLoader.
-
-# How to compile
-- Download Node JS latest version
-- Download the source code in the download section
-- Run compile.sh/bat or run the command `npm install && npm run dist` or `yarn install && yarn run dist` if you have `yarn` installed
-- Go to dist and you will see the installer and the software folder
-- Have fun(Easy Peasy)
-
-**If you are a linux user and it returns an error or stucks at creating AppImage then go to `package.json` and delete this**
-
-```
-"win":{
-	"icon": "res/icon.ico"
-},
-"mac":{
-	"icon": "res/icon.icns"
-},
-```
-
-# Changelogs
-```
 Version 3.1.1
+- Fixed Deezer's API change again haha
+Version 3.1.0
 - Fixed Download Freeze
 - Improved logs
 - Improved UI
@@ -227,7 +167,7 @@ Version 2.1.2
 Version 2.1.1
 - Added context menu
 - Corrected some spelling mistakes
-- Fixed crash when searching with special characters like Ã†, Ã˜ and Ã….
+- Fixed crash when searching with special characters like Æ, Ø and Å.
 
 Version 2.1.0
 - Updated all libraries to their latest version (this should fix issues with newer node versions)
@@ -244,20 +184,3 @@ Version 2.0.3
 tinkering with the code and forgot to change)
 - Fixed compatibility issues with Node v6 (works on older versions too, but there might be problems with downloading
 the cover art, so please update to v6 if you can)
-```
-
-# Credits
-## Original Developer
-[ZzMTV](https://boerse.to/members/zzmtv.3378614/)
-
-## Former Maintainers
-[ExtendLord](https://github.com/ExtendLord)<br/>
-[ParadoxalManiak](https://github.com/ParadoxalManiak)<br/>
-[snwflake](https://github.com/snwflake)
-
-**No longer maintained by ExtendLord**
-
-# Disclaimer
-- I am not responsible for the usage of this program by other people.
-- I do not recommend you doing this illegally or against Deezer's terms of service.
-- This project is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
